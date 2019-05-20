@@ -1,2 +1,4 @@
+server:
+  port: 8210        
 user:
   role: Developer
