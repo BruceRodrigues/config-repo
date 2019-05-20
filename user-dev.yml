@@ -1,4 +1,10 @@
 server:
-  port: 8210        
+  port: 8210
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka
+ 
 user:
   role: Developer
