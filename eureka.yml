@@ -12,4 +12,10 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 3000
 
+spring:
+  security:
+    user:
+      name: eureka
+      password: secret_eureka
+
 
